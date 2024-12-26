@@ -18,7 +18,7 @@ func makeUI() (*widget.Label, *widget.Entry) {
 
 func main() {
 	a := app.New()
-	w := a.NewWindow("Hello Person")
+	w := a.NewWindow("Hello World!!")
 
 	w.SetContent(container.NewVBox(makeUI()))
 	w.ShowAndRun()
