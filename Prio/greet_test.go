@@ -7,6 +7,7 @@ import (
 )
 
 func TestGreeting(t *testing.T) {
+
 	out, in := makeUI()
 
 	if out.Text != "Hello world!" {
