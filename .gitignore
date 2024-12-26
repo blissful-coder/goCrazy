@@ -1,0 +1,51 @@
+# General OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Build artifacts
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.test
+*.a
+
+# Go-specific files
+/go/bin/
+/go/pkg/
+*.exe
+*.test
+*.o
+
+# Dependency directories
+vendor/
+
+# Cache and other Go tools
+*.cache
+*.cover
+*.cov
+*.prof
+*.profraw
+
+# Config files
+config.yaml
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# OS generated files
+*.DS_Store
+Thumbs.db
